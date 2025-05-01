@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How It Works</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f9f9f9;
+            text-align: center;
+        }
+
+        .how-it-works {
+            padding: 40px 20px;
+        }
+
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            margin-bottom: 40px;
+            color: #666;
+        }
+
+        .steps {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            position: relative;
+        }
+
+        .step {
+            width: 180px;
+            height: 180px;
+            transform: rotate(45deg);
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #fff;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .step-inner {
+            transform: rotate(-45deg);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .step-number {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #fff;
+            color: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .step-icon {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .step-1 {
+            background: #8854d0;
+        }
+
+        .step-2 {
+            background: #20c997;
+        }
+
+        .step-3 {
+            background: #f39c12;
+        }
+
+        .step-4 {
+            background: #f14668;
+        }
+
+        .step-5 {
+            background: #006d77;
+        }
+
+        /* Responsive layout */
+        @media (max-width: 768px) {
+            .step {
+                width: 140px;
+                height: 140px;
+                font-size: 12px;
+            }
+
+            .step-number {
+                width: 30px;
+                height: 30px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section class="how-it-works">
+        <div class="title">How Does It Work?</div>
+        <div class="subtitle">You refer, you earn.</div>
+        <div class="steps">
+            <div class="step step-1">
+                <div class="step-inner">
+                    <div class="step-number">1</div>
+                    <div>Submit The<br />Referral Form</div>
+                    <div class="step-icon">🤝</div>
+                </div>
+            </div>
+            <div class="step step-2">
+                <div class="step-inner">
+                    <div class="step-number">2</div>
+                    <div>Connect With Our<br />Partnership Consultant</div>
+                    <div class="step-icon">👥</div>
+                </div>
+            </div>
+            <div class="step step-3">
+                <div class="step-inner">
+                    <div class="step-number">3</div>
+                    <div>We Connect With<br />Your Prospect</div>
+                    <div class="step-icon">🔍</div>
+                </div>
+            </div>
+            <div class="step step-4">
+                <div class="step-inner">
+                    <div class="step-number">4</div>
+                    <div>Prospect Comes<br />Onboard</div>
+                    <div class="step-icon">🤝</div>
+                </div>
+            </div>
+            <div class="step step-5">
+                <div class="step-inner">
+                    <div class="step-number">5</div>
+                    <div>You Earn While We<br />Complete The Job</div>
+                    <div class="step-icon">📈</div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
