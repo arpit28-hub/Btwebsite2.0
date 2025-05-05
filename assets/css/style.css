@@ -7728,7 +7728,7 @@ div.item2:nth-of-type(5) {
   width: fit-content;
   border-radius: 15px;
   position: absolute;
-  top: -32px;
+  top: -40px;
 }
 
 @keyframes beep {
@@ -7800,9 +7800,7 @@ div.item2:nth-of-type(5) {
   border-radius: 20px;
 }
 
-/* .our-process .marketing-experts-col:nth-child(1){
-  order: 2;
-} */
+
 .conversion-star-icon {
   color: #f8b805;
   padding: 0 10px;
@@ -7811,7 +7809,6 @@ div.item2:nth-of-type(5) {
 .conversion-star-icon .star-outline {
   color: transparent;
   -webkit-text-stroke: 1px #f8b805;
-  /* creates outline effect */
 }
 
 /* **************Trusted.html************** */
@@ -7825,7 +7822,6 @@ div.item2:nth-of-type(5) {
 }
 
 .ads-agency .card {
-  /* height: 270px; */
   border-radius: 30px;
   border: none;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
@@ -7940,4 +7936,27 @@ div.item2:nth-of-type(5) {
 .accordion .accordion-item {
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
 
+}
+
+.building-banner .animated-icons .icon-move.triangle-animate3 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/img/vector-icon/anytime-banner-triangle-orange.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 25%;
+  left: 30%;
+  animation-delay: 0.3s;
+}
+
+/* *********indepth.html******** */
+.indepth-banner .animated-icons .icon-move.triangle-animate3 {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../assets/img/vector-icon/anytime-banner-triangle-orange.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  bottom: 25%;
+  left: 30%;
+  animation-delay: 0.3s;
 }
