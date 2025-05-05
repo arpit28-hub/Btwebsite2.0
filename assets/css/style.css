@@ -6940,6 +6940,17 @@ div.item2:nth-of-type(5) {
   color: rgb(144, 184, 243);
 }
 
+.why_join_us-section .pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  margin-inline: auto;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
 .why_join_us-section .slick-dots li {
   width: 8px;
   height: 8px;
@@ -7118,7 +7129,7 @@ div.item2:nth-of-type(5) {
   padding-block: 10px;
   padding-inline: 20px;
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .prod-tab-bg-image {
@@ -7136,9 +7147,12 @@ div.item2:nth-of-type(5) {
 }
 
 .req-sec .pic {
-  padding: 30px;
-  width: fit-content;
-  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
   transition: 0.3s;
 }
 
@@ -7147,7 +7161,7 @@ div.item2:nth-of-type(5) {
 }
 
 .req-sec .card:hover .pic {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2);
   transform: translateY(-5px);
 }
 
@@ -7389,9 +7403,13 @@ div.item2:nth-of-type(5) {
 }
 
 .why-sec .pic {
-  padding: 10px;
-  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
   border-radius: 10px;
+  transition: 0.3s;
 }
 
 .why-sec .card {
@@ -7593,9 +7611,13 @@ div.item2:nth-of-type(5) {
 
 /* **************************** */
 .aaa .pic {
-  width: fit-content;
-  padding: 20px;
-  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  transition: 0.3s;
 }
 
 .aaa .card {
@@ -7605,14 +7627,12 @@ div.item2:nth-of-type(5) {
 
 .aaa .card:hover {
   border: none;
-  /* transition: .3s ease-in-out; */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  /* transform: scale(1.07); */
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
 }
 
+
 .aaa-list ul li::marker {
-  font-size: 20px;
-  /* border: 4px solid red; */
+  font-size: 30px;
   color: #164a9e;
 }
 
@@ -7623,9 +7643,13 @@ div.item2:nth-of-type(5) {
 }
 
 .proj-team .pic {
-  padding: 20px;
-  width: fit-content;
-  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  transition: 0.3s;
 }
 
 .proj-team .outer-col-1,
@@ -7634,16 +7658,15 @@ div.item2:nth-of-type(5) {
   padding: 20px;
   border: none;
   background-color: #fff;
-  /* box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0px 0px 42px 0px rgba(0, 0, 0, 0.1);
 }
 
 .proj-team .card {
   border: none;
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); */
 }
 
 .proj-team .card:hover {
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -7656,7 +7679,7 @@ div.item2:nth-of-type(5) {
 
 .industry-sol .card-bg {
   position: relative;
-  height: 300px;
+  height: 380px;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
@@ -7723,13 +7746,18 @@ div.item2:nth-of-type(5) {
 }
 
 .cro-process .pic {
-  padding: 20px;
-  margin-left: 15px;
-  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
   border-radius: 15px;
+  margin-left: 15px;
   position: absolute;
-  top: -40px;
+  top: -35px;
+  transition: 0.3s;
 }
+
 
 @keyframes beep {
   0% {
@@ -7745,11 +7773,11 @@ div.item2:nth-of-type(5) {
   }
 }
 
-.pic-icon {
+.cro-process .pic img {
   transition: 0.3s ease-in-out;
 }
 
-.cro-process .card:hover .pic-icon {
+.cro-process .card:hover .pic img {
   animation: beep 0.4s ease-in-out 1;
 }
 
@@ -7759,7 +7787,7 @@ div.item2:nth-of-type(5) {
   position: relative;
   height: 280px;
   border-radius: 30px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 .cro-process ul li::marker {
@@ -7791,14 +7819,7 @@ div.item2:nth-of-type(5) {
   }
 }
 
-.our-process .bg-sec {
-  background-position: center;
-  height: 380px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: none;
-  border-radius: 20px;
-}
+
 
 
 .conversion-star-icon {
@@ -7812,19 +7833,12 @@ div.item2:nth-of-type(5) {
 }
 
 /* **************Trusted.html************** */
-.trusted-process .bg-sec {
-  background-position: center;
-  height: 380px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border: none;
-  border-radius: 20px;
-}
+
 
 .ads-agency .card {
   border-radius: 30px;
   border: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 1200px) {
@@ -7852,19 +7866,23 @@ div.item2:nth-of-type(5) {
 }
 
 .ads-agency .pic {
-  padding: 15px;
-  margin-left: 15px;
-  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
   border-radius: 15px;
+  margin-left: 15px;
   position: absolute;
-  top: -32px;
+  top: -35px;
+  transition: 0.3s;
 }
 
-.pic-icon {
+.ads-agency .pic img {
   transition: 0.3s ease-in-out;
 }
 
-.ads-agency .card:hover .pic-icon {
+.ads-agency .card:hover .pic img {
   animation: beep 0.4s ease-in-out 1;
 }
 
@@ -7872,17 +7890,45 @@ div.item2:nth-of-type(5) {
   border: none;
   transition: 0.3s ease-in-out;
   position: relative;
-  height: 280px;
+  height: 240px;
   border-radius: 30px;
+}
+
+@media(max-width:1200px) {
+  .ads-agency .card {
+    height: 300px;
+  }
+}
+
+@media(max-width:991px) {
+  .ads-agency .card {
+    height: 250px;
+  }
+}
+
+@media(max-width:768px) {
+  .ads-agency .card {
+    height: 200px;
+  }
+}
+
+@media(max-width:430px) {
+  .ads-agency .card {
+    height: 280px;
+  }
 }
 
 /* ***********building.html********* */
 
 .link-building .pic {
-  padding: 15px;
-  margin-left: 15px;
-  width: fit-content;
-  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  transition: 0.3s;
 }
 
 .link-building .text-truncate-4 {
@@ -7906,7 +7952,7 @@ div.item2:nth-of-type(5) {
   transform: scale(1.01);
 }
 
-.link-building .card:hover .pic-icon {
+.link-building .card:hover .pic img {
   animation: beep 0.4s ease-in-out 1;
 }
 
