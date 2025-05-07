@@ -7031,7 +7031,6 @@ div.item2:nth-of-type(5) {
 /* ############### Productivity solutions Grant (PSG)(productivity.html)########## */
 .psg-sol {
   background-color: #eef3fa;
-  /* background-color: red; */
 }
 
 .psg-sol .card {
@@ -7060,13 +7059,11 @@ div.item2:nth-of-type(5) {
 }
 
 .psg-sol .card {
-  /* animation: fadeIn 1s ease-in-out; */
-  /* box-shadow: 0px 5px 20px #a9c9e9; */
+  
   transition: 0.3s ease-in-out;
 }
 
 .psg-sol .card:hover {
-  /* animation: fadeIn 1s ease-in-out; */
   box-shadow: 0px 5px 20px #a9c9e9;
   transform: translateY(-5px);
 }
@@ -8006,3 +8003,173 @@ div.item2:nth-of-type(5) {
   left: 30%;
   animation-delay: 0.3s;
 }
+
+/* ***********shopify.html******** */
+.shopify_benefits .pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+ min-width: 70px;
+  /* margin-inline: auto; */
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.shopify_benefits .card {
+  border: none;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  height: 320px;
+  border-radius: 30px;
+  z-index: 2;
+  box-shadow: 0 8px 12px  rgba(0, 0, 0, 0.1);
+}
+@media(max-width:1400px){
+  .shopify_benefits .card {
+  height: 380px;
+
+  }
+}
+
+@media(max-width:1200px){
+  .shopify_benefits .card {
+  height: 440px;
+
+  }
+}
+
+@media(max-width:996px){
+  .shopify_benefits .card {
+  height: 380px;
+
+  }
+}
+
+@media(max-width:768px){
+  .shopify_benefits .card {
+  height: 250px;
+
+  }
+}
+
+@media(max-width:576px){
+  .shopify_benefits .card {
+  height: 300px;
+
+  }
+}
+
+@media(max-width:450px){
+  .shopify_benefits .card {
+  height: 350px;
+
+  }
+}
+
+@media(max-width:350px){
+  .shopify_benefits .card {
+  height: 400px;
+
+  }
+}
+
+.shopify_benefits .card:hover {
+  /* box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.shopify_benefits .card:hover .pic img{
+  transition: .3s ease-in-out;
+}
+.shopify_benefits .card:hover .pic img{
+  /* box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2); */
+animation: beep .5s  ease-in-out;
+  /* transform: scale(1.1) rotate(10deg); */
+}
+
+/* **********psg.html******** */
+.psg-genidocs {
+  background-color: #eef3fa;
+}
+
+.psg-genidocs .card {
+  border-radius: 15px;
+}
+
+.psg-genidocs .card-box>div:nth-child(1)>div {
+  background-color: rgba(65, 130, 240, 0.1);
+  border: 1px solid #4182f0;
+  height: 200px;
+  width: 200px;
+}
+
+.psg-genidocs .card-box>div:nth-child(2)>div {
+  background-color: rgba(253, 154, 0, 0.1);
+  border: 1px solid #fd9a00;
+  height: 200px;
+  width: 200px;
+}
+
+.psg-genidocs .card-box>div:nth-child(3)>div {
+  background-color: rgba(87, 210, 136, 0.1);
+  border: 1px solid #57d288;
+  height: 200px;
+  width: 200px;
+}
+
+.psg-genidocs .card {
+  
+  transition: 0.3s ease-in-out;
+}
+
+.psg-genidocs .card:hover {
+  box-shadow: 0px 5px 20px #a9c9e9;
+  transform: translateY(-5px);
+}
+
+.psg-genidocs .card:hover .icon-1 {
+  animation: card2 1s ease-in-out forwards;
+}
+
+.psg-genidocs .card:hover .icon-2 {
+  animation: card2 1s ease-in-out forwards;
+}
+
+.psg-genidocs .card:hover .icon-3 {
+  animation: card2 1s ease-in-out forwards;
+}
+
+.psg-req-sec {
+  background-color: rgba(239, 247, 255, 0.6);
+}
+
+.psg-req-sec .card {
+  height: 200px;
+  transition: 0.3s ease-in-out;
+  border: 2px solid #ddd;
+}
+
+.psg-req-sec .pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.psg-req-sec .card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.psg-req-sec .card:hover .pic {
+  box-shadow: 0 0px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+
+
+
+
+
