@@ -7139,8 +7139,8 @@ div.item2:nth-of-type(5) {
 }
 
 .req-sec .card {
-  height: 200px;
   transition: 0.3s ease-in-out;
+  border: 1px solid #e2dfdf;
 }
 
 .req-sec .pic {
@@ -7660,12 +7660,22 @@ div.item2:nth-of-type(5) {
 
 .proj-team .card {
   border: none;
+  box-shadow: 0 0 35px rgba(0,0,0,0.1);
 }
 
 .proj-team .card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
+.ss{
+  order: 2;
+}
+
+@media(min-width:992px){
+  .ss{
+    order: 1;
+  } 
+}
+
 
 
 .industry-sol .card {
@@ -7782,7 +7792,7 @@ div.item2:nth-of-type(5) {
   border: none;
   transition: 0.3s ease-in-out;
   position: relative;
-  height: 280px;
+  /* height: 280px; */
   border-radius: 30px;
   box-shadow: 0 0px 20px rgba(0, 0, 0, 0.2);
 }
@@ -7792,7 +7802,7 @@ div.item2:nth-of-type(5) {
   color: #164a9e;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .cro-process .card {
     height: 250px;
   }
@@ -7814,7 +7824,7 @@ div.item2:nth-of-type(5) {
   .cro-process .card {
     height: 290px;
   }
-}
+} */
 
 
 
@@ -7939,7 +7949,7 @@ div.item2:nth-of-type(5) {
   border: none;
   transition: 0.3s ease-in-out;
   position: relative;
-  height: 280px;
+  /* height: 280px; */
   border-radius: 20px;
   z-index: 2;
   box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
