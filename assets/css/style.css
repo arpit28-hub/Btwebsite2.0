@@ -8031,12 +8031,11 @@ div.item2:nth-of-type(5) {
   border: none;
   transition: 0.3s ease-in-out;
   position: relative;
-  height: 320px;
   border-radius: 30px;
   z-index: 2;
   box-shadow: 0 8px 12px  rgba(0, 0, 0, 0.1);
 }
-@media(max-width:1400px){
+/* @media(max-width:1400px){
   .shopify_benefits .card {
   height: 380px;
 
@@ -8083,7 +8082,7 @@ div.item2:nth-of-type(5) {
   height: 400px;
 
   }
-}
+} */
 
 .shopify_benefits .card:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
@@ -8109,6 +8108,7 @@ animation: beep .5s  ease-in-out;
   border: 1px solid #4182f0;
   height: 200px;
   width: 200px;
+  /* padding: 50px; */
 }
 
 .psg-genidocs .card-box>div:nth-child(2)>div {
@@ -8181,8 +8181,8 @@ animation: beep .5s  ease-in-out;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 80px;
-  width: 80px;
+  height: 85px;
+  width: 85px;
   position: absolute;
   top: -40px;
   border-radius: 15px;
